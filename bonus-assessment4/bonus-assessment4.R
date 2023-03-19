@@ -34,4 +34,4 @@ NEWDATA %>% group_by(Favorite_subject) %>% summarise(mean(Average, na.rm= T),
 
 detach(SAMPLE_DATA)
 
-print("View the new data in the environment panel in Rstudio. Note that chosen data are random. Mean and standard deviation per subjects are printed, if not run then line 32 manually.")
+print("View the new data in the environment panel in Rstudio. Note that chosen data are random. Mean and standard deviation per subjects are printed, if not, then run line 32 manually.")
